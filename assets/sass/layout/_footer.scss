@@ -1,0 +1,30 @@
+.footer {
+    display: flex; 
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    border-top: 3px solid #CCCCCC;
+}
+
+.footer-logo {
+    width: 55px;
+    height: 55px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 25%; 
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.footer-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: auto;
+}

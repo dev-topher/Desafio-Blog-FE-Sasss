@@ -1,0 +1,25 @@
+@mixin loginbutton {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 6px;
+    padding: 6px;
+    border-width: 1px;
+    border-color: rgb(222, 226, 230);
+}
+
+.register-button {
+    @include loginbutton;
+    background-color: $primary-color;
+}
+
+.google-button {
+    @include loginbutton;
+    background-color: white;
+    padding: 0;
+    margin-bottom: 1vw;
+}
+
+.go-home {
+    text-decoration: none;
+    color: black;
+}

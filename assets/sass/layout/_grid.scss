@@ -1,0 +1,32 @@
+.card-container {
+    display: grid;
+    grid-template-columns: 55% 50%; 
+}
+
+.page1-card1 {
+    grid-column: 1;
+}
+
+.page1-card2 {
+    grid-column: 1;
+}
+
+.page2,
+.page2-A {
+    display: grid;
+    grid-template-columns: 55% 50%; 
+    gap: 20px; 
+}
+
+.page2-card {
+    grid-column: 1; 
+}
+
+.page2-card2 {
+    grid-column: 1;
+    margin-left: 20%;
+}
+
+.card {
+    border: 0;
+}

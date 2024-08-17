@@ -1,0 +1,27 @@
+@mixin text-forum {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.register-text {
+    @include text-forum;
+    color: white;
+}
+
+.register-google-text {
+    @include text-forum;
+    color: black;
+}
+
+.text-login {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.move-login {
+    @include text-forum;
+    margin-left: 10px;
+}
